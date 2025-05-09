@@ -20,8 +20,15 @@ You have two primary ways to execute the tests:
     This command will compile your project and run all the tests configured in your `pom.xml` file.
 
 2.  **Run individual test cases:**
-    All the test code can be found in the following Java file:
+    All the test code for UI tests can be found in the following Java file:
     ```
     src/test/java/TellusTests.java
     ```
     You can open this file in your Integrated Development Environment (IDE) and run individual test methods or test classes directly from there. This is often useful for debugging or focusing on specific test scenarios.
+
+3.  **Run API test cases:**
+    All the test code for API tests can be found in the following Java file:
+    ```
+    src/test/java/ApiCases/ApiTests.java
+    ```
+    Similar to UI tests, you can open this file in your IDE to run individual API test methods or classes.
